@@ -1,6 +1,5 @@
 ---
-title: "Martin Luther King's I have a dream speech"
-date: 2020-01-15T00:00:00+00:00
+
 ---
 # Martin Luther King's I have a dream speech
 
