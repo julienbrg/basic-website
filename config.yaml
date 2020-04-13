@@ -1,0 +1,32 @@
+params:
+  color: black           # Any color in CSS syntax
+  width: 42rem          # Any length in CSS syntax
+  footer: >-            # A hardcoded space is needed before each html element
+    Powered by Hugo + IPFS + ENS
+  rss: To subscribe to this RSS feed, copy its address and paste it into your
+    favorite feed reader.
+  summaries: false      # Set to true to show summaries of posts on homepage
+  divider: \a0          # Set to false to remove divider below posts on homepage
+  schema: false         # Set to true to add Schema.org metadata
+  opengraph: false      # Set to true to add Open Graph metadata
+  twittercards: false   # Set to true to add Twitter Cards metadata
+  utterances:
+    repo:               # Set to Utterances repo URL to add Utterances comments
+    issueterm: pathname
+    theme: github-light
+  netlify:
+    honeypot: false     # Set to true to add honeypot field in contact form
+    recaptcha: false    # Set to true to add recaptcha challenge in contact form
+  # css:                # Uncomment to add custom CSS from a list of files
+  #   - css/foo.css
+  #   - bar.css
+  # js:                 # Uncomment to add custom JS from a list of files
+  #   - js/foo.js
+  #   - bar.js
+
+relativeURLs: true
+menu:
+  nav:
+  - name: Source
+    url: http://www.let.rug.nl/usa/documents/1951-/martin-luther-kings-i-have-a-dream-speech-august-28-1963.php
+    weight: 1
